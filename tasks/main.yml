@@ -1,3 +1,5 @@
+    - name: call other yaml
+      include-tasks: intermediary.yml
 
     - name: Find /etc/sudoers.d/ files
       ansible.builtin.find:
